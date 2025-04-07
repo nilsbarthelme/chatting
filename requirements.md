@@ -19,7 +19,7 @@ The Local Network Chat Application will consist of a TypeScript-based server and
 - FR-1.5: The server shall store all messages in a relational database.
 - FR-1.6: The server shall retrieve and provide the last 1000 messages to new users upon connection.
 - FR-1.7: The server shall broadcast new messages to all connected clients in real-time.
-- FR-1.8: The server shall prevent duplicate usernames by checking if a requested username is already in use.
+- FR-1.8: The server shall prevent duplicate usernames by checking if a requested username is already in use by checking the database if the username was used before.
 
 ### 3.2. Frontend Functionality
 
